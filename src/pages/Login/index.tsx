@@ -19,7 +19,7 @@ export const Login = () => {
       const isValidLogin =
         userData.user === user && userData.password === password;
       if (isValidLogin) {
-        navigate("/"); //TODO: put the next page address in this method
+        navigate("/"); // TODO: put the next page address in this method
 
         console.log("login success");
       }
